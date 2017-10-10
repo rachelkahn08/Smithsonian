@@ -2,4 +2,25 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
-/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1haW4uc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNDLCtCQUFzQjtVQUF0Qix1QkFBc0IsRUFDdEIiLCJmaWxlIjoibWFpbi5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIqIHtcblx0Ym94LXNpemluZzogYm9yZGVyLWJveDtcbn0iXX0= */
+header .smithsonian-logo__container {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  header .smithsonian-logo__container .smithsonian-logo__copy {
+    color: RGBA(48, 80, 107, 1);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 24px; }
+    header .smithsonian-logo__container .smithsonian-logo__copy sup {
+      font-size: 12px;
+      font-family: "Merriweather";
+      color: #27506e;
+      font-weight: bold; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1haW4uc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNDLCtCQUFzQjtVQUF0Qix1QkFBc0IsRUFDdEI7O0FBRUQ7RUFFRSxXQUFVO0VBQ1YscUJBQWE7RUFBYixxQkFBYTtFQUFiLGNBQWEsRUFjYjtFQWpCRjtJQUtHLDRCQUE4QjtJQUM5QixxQkFBYTtJQUFiLHFCQUFhO0lBQWIsY0FBYTtJQUNWLDZCQUFzQjtJQUF0Qiw4QkFBc0I7UUFBdEIsMkJBQXNCO1lBQXRCLHVCQUFzQjtJQUN0QixnQkFBZSxFQVFsQjtJQWhCSDtNQVdPLGdCQUFlO01BQ2xCLDRCQUEyQjtNQUMzQixlQUF1QjtNQUN2QixrQkFBaUIsRUFDZCIsImZpbGUiOiJtYWluLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIioge1xuXHRib3gtc2l6aW5nOiBib3JkZXItYm94O1xufVxuXG5oZWFkZXJ7XG5cdC5zbWl0aHNvbmlhbi1sb2dvX19jb250YWluZXJ7XG5cdFx0d2lkdGg6IDMwJTtcblx0XHRkaXNwbGF5OiBmbGV4O1xuXHRcdC5zbWl0aHNvbmlhbi1sb2dvX19jb3B5e1xuXHRcdFx0Y29sb3I6IFJHQkEoNDgsIDgwLCAxMDcsIDEuMDApO1xuXHRcdFx0ZGlzcGxheTogZmxleDtcblx0XHQgICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcblx0XHQgICAgZm9udC1zaXplOiAyNHB4O1xuXG5cdFx0ICAgIHN1cHtcblx0XHRcdCAgICBmb250LXNpemU6IDEycHg7XG5cdFx0XHRcdGZvbnQtZmFtaWx5OiBcIk1lcnJpd2VhdGhlclwiO1xuXHRcdFx0XHRjb2xvcjogcmdiKDM5LCA4MCwgMTEwKTtcblx0XHRcdFx0Zm9udC13ZWlnaHQ6IGJvbGQ7XG5cdCAgICBcdH1cblx0XHR9XG5cdH1cbn1cblxuXG4iXX0= */
