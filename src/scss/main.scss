@@ -4,22 +4,42 @@
 
 header{
 	.smithsonian-logo__container{
-		width: 30%;
 		display: flex;
+		justify-content: space-around;
+		align-items: center;
+
+		.hamburger{
+			background-image: url(../../assets/img/hamburger.png);
+			width: 16%;
+			padding-bottom: 5%;
+			background-size: contain;
+		}
+
 		.smithsonian-logo__copy{
 			color: RGBA(48, 80, 107, 1.00);
 			display: flex;
 		    flex-direction: column;
-		    font-size: 24px;
+		    font-size: 35px;
+		    text-align: center;
 
 		    sup{
-			    font-size: 12px;
+			    font-size: 14px;
 				font-family: "Merriweather";
 				color: rgb(39, 80, 110);
 				font-weight: bold;
 	    	}
+
+	    	img{
+	    		width: 20%;
+	    		height: 8%;
+	    	}
 		}
 	}
+}
+
+.hero-cta{
+	background-image: url(../../assets/img/mobile-hero-bg.png);
+	color: white;
 }
 
 
