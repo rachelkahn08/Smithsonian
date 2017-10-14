@@ -7,11 +7,17 @@ header{
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
+		height: 12%;
+
+		img{
+			height: 50px;
+		}
+
 
 		.hamburger{
 			background-image: url(../../assets/img/hamburger.png);
 			width: 16%;
-			padding-bottom: 5%;
+			padding-bottom: 10%;
 			background-size: contain;
 		}
 
@@ -37,9 +43,136 @@ header{
 	}
 }
 
-.hero-cta{
-	background-image: url(../../assets/img/mobile-hero-bg.png);
-	color: white;
+.navbar{
+	display: none;
 }
 
+.hero-cta{
+	width: 100%;
+	background-image: url(../../assets/img/mobile-hero-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-bottom: 50%;
+	color: white;
 
+	.donation-button{
+		position: relative;
+		left: 5%;
+		top: 11px;
+		color: white;
+		text-decoration: none;
+		background-color: RGBA(243, 183, 68, 1.00);
+		width: 20%;
+		padding: 4% 6% 4% 6%;
+	}
+	
+	.hero-cta-content-wrap{
+		position: relative;
+		top: 60px;
+
+		h2{
+			width: 87%;
+			padding-bottom: 5%;
+			position: relative;
+			left: 5%;
+			background-color: RGBA(47, 73, 95, .8);
+			font-size: 2.5rem;
+		}
+
+		p , a {
+			width: 80%;
+			font-size: 2rem;
+			background-color: RGBA(47, 73, 95, .8);
+			position: relative;
+			left: 5%;
+			text-decoration: none;
+
+		}
+
+		p{
+			padding-bottom: 4%;
+		}
+		
+		a{
+			color: RGBA(48, 80, 107, 1.00);
+			background-color: white;
+			padding: 1%;
+		}
+	}
+}
+
+.promos-wrap{
+	display: block;
+	position: relative;
+
+	.five-of-12-columns{
+		position: relative;
+		top: -40px;
+		background-image: url(../../assets/img/astronauts.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding-bottom: 82%;
+
+			.promo__item{
+			width: 100%;
+			background-color: RGBA(43, 53, 68, .8);
+			position: absolute;
+			bottom: 0;
+			color: white;
+			font-size: 1.3rem;
+			text-decoration: none;
+			padding-left: 5%;
+
+		}
+	}
+
+	.seven-of-12-columns{
+		display: flex;
+		flex-direction: column;
+
+		.fossile{
+			position: relative;
+			top: -40px;
+			background-image: url(../../assets/img/fossile.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+			padding-bottom: 52%;			
+		}
+
+		.promo__item{
+			width: 100%;
+			background-color: RGBA(43, 53, 68, .8);
+			position: absolute;
+			bottom: 0;
+			color: white;
+			font-size: 1.3rem;
+			text-decoration: none;
+			padding-left: 5%;
+		}
+
+		.education{
+			position: relative;
+			top: -40px;
+			background-image: url(../../assets/img/education.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+			padding-bottom: 52%;			
+		
+		}
+
+		.dino{
+			position: relative;
+			top: -40px;
+			background-image: url(../../assets/img/dino.png);
+			background-size: cover;
+			background-repeat: no-repeat;
+			padding-bottom: 52%;	
+		}
+	}
+}
+
+.location-map{
+	background-color: RGBA(76, 104, 130, 1.00);
+	text-align: center;
+	color: white;
+}
