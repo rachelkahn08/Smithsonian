@@ -1,5 +1,8 @@
 * {
 	box-sizing: border-box;
+	font-family: 'Merriweather', serif;
+
+
 }
 
 header{
@@ -175,4 +178,87 @@ header{
 	background-color: RGBA(76, 104, 130, 1.00);
 	text-align: center;
 	color: white;
+	position: relative;
+    top: -40px;
+    padding-bottom: 80%;
+	
+	.one-of-4-columns{
+		padding-top: 5%;
+
+		h3{
+			font-size: 1.5rem;
+    		padding-bottom: 4%;
+		}
+
+		address{
+			font-size: 1.2rem;
+			text-decoration: underline;
+			line-height: 1.5;
+			padding-bottom: 5%;
+		}
+
+		a{
+			display: none;
+		}
+
+		.parking-phone-text{
+			.parking-text , .phone-text{
+				padding-bottom: 5%;
+				font-size: 1.1rem;
+				width: 60%;
+				margin: 0 auto;
+				line-height: 1.5;
+			}
+
+		}
+
+
+	}
+
 }
+
+footer{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Merriweather', serif;
+
+
+	ul{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		line-height: 1.4;
+
+
+		a{
+			text-decoration: none;
+			color: black;
+			font-size: 1.3rem;
+		}
+		.copy-right{
+			width: 100%;
+
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
