@@ -1,11 +1,12 @@
+$navy: #27506e;
+
+
 * {
 	box-sizing: border-box;
 	font-family: 'Merriweather', serif;
-
-
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
 	text-transform: uppercase;
 }
 
@@ -13,7 +14,7 @@ h2, h3, h4 {
 	font-style: italic;
 	padding-top: 5%;
 }
-
+ 
 p, address, .hours-events-button {
 	font-family: Verdana, sans-serif;
 	text-transform: uppercase;
@@ -26,34 +27,41 @@ a {
 }
 
 header{
+	color: $navy; 
+
 	.smithsonian-logo__container{
+		padding: 5%;
 		display: flex;
-		justify-content: space-around;
-		align-items: center;
-		height: 12%;
+		justify-content: space-between;
+		align-items: flex-start;
 
 		img{
 			height: 50px;
 		}
 
-
 		.hamburger{
-			background-image: url(../../assets/img/hamburger.png);
 			width: 16%;
-			padding-bottom: 10%;
 			background-size: contain;
-			background-repeat: no-repeat;
+
+			.hamburger-image {
+				width: 100%;
+			}
+
+			.hamburger-bars {
+				height: 7px;
+				margin-bottom: 7px;
+				width: 100%;
+				background-color: $navy; 
+			}
 		}
 
 		.smithsonian-logo__copy{
-			color: RGBA(48, 80, 107, 1.00);
 			display: flex;
-		    flex-direction: column;
-		    font-size: 35px;
-		    text-align: center;
+			flex-direction: column;
+		    font-size: 1.68rem;
 
 		    sup{
-			    font-size: 14px;
+			    font-size: 0.8rem;
 				font-family: "Merriweather";
 				color: rgb(39, 80, 110);
 				font-weight: bold;
@@ -334,20 +342,4 @@ footer{
 		}
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
