@@ -79,16 +79,19 @@ header{
 			position: relative;
 			left: 5%;
 			background-color: RGBA(47, 73, 95, .8);
-			font-size: 2.5rem;
+			font-size: 2.2rem;
+			padding-left: 5%;
+    		padding-top: 5%
 		}
 
 		p , a {
 			width: 80%;
-			font-size: 2rem;
+			font-size: 1.5rem;
 			background-color: RGBA(47, 73, 95, .8);
 			position: relative;
 			left: 5%;
 			text-decoration: none;
+			padding-left: 5%;
 
 		}
 
@@ -100,6 +103,7 @@ header{
 			color: RGBA(48, 80, 107, 1.00);
 			background-color: white;
 			padding: 1%;
+			padding-left: 5%;
 		}
 	}
 }
@@ -124,7 +128,16 @@ header{
 			color: white;
 			font-size: 1.3rem;
 			text-decoration: none;
-			padding-left: 5%;
+			padding: 5% 0 5% 5%;
+
+			h4{
+				font-size: 1.5rem;
+				padding-bottom: 2%;
+			}
+
+			p{
+				font-size: .9rem;
+			}
 
 		}
 	}
@@ -150,7 +163,16 @@ header{
 			color: white;
 			font-size: 1.3rem;
 			text-decoration: none;
-			padding-left: 5%;
+			padding: 5% 0 5% 5%;
+
+			h4{
+				font-size: 1.5rem;
+				padding-bottom: 2%;
+			}
+
+			p{
+				font-size: .9rem;
+			}
 		}
 
 		.education{
@@ -243,8 +265,41 @@ footer{
 	}
 }
 
+@media screen and (max-width: 768px){
+	
+	header{
+		.smithsonian-logo__container{
+			font-size: 50px;
 
+			img{
+				height: 80%;
+			}
 
+			.smithsonian-logo__copy{
+				font-size: 50px;
+
+				sup{
+					font-size: 18px;
+				}
+			}
+
+			.hamburger{
+				width: 10%;
+				padding-bottom: 6%;
+			}
+		}
+	}
+
+	.hero-cta{
+		.donation-button{
+			top: 26px;
+		}
+
+		.hero-cta-content-wrap{
+			top: 130px;
+		}
+	}
+}
 
 
 
