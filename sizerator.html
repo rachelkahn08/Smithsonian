@@ -1,0 +1,122 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title></title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="assets/css/reset.css">
+		<link rel="stylesheet" href="assets/css/main.css">
+		<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+	</head>
+	<body id="sizerator">
+		<header>
+			<div class="smithsonian-logo__container">
+				<img src="assets/img/sun-logo.png" class="smithsonian-logo__img" alt="smithsonian institute's logo" />
+				<h1 class="smithsonian-logo__copy">
+					<sup>smithsonian national museum of</sup>
+					national history
+				</h1>
+				<div class="hamburger">
+					<div class="hamburger-image">
+						<div class="hamburger-bars"></div>
+						<div class="hamburger-bars"></div>
+						<div class="hamburger-bars"></div>
+					</div>
+					<h5>menu</h5>
+				</div>
+			</div>
+			<nav>
+				<ul class="navbar">
+					<li>exhibits</li>
+					<li>calendar</li>
+					<li>groups</li>
+					<li>research</li>
+					<li>about</li>
+					<li>
+						<img src="" class="search-icon" alt="search icon" />
+						search
+					</li>
+					<li>
+						language &#x25BC;
+					</li>
+				</ul>
+			</nav>
+		</header>
+		
+		<main>
+			<h1>the sizerator</h1>
+			<section id="sizeratorModal">
+				In honor of one of the <strong>biggest t-rex skeletons ever assembled</strong>, we have created <span>the sizerator</span>. Select an animal and scroll to see how it would stack up against other creatures!
+				<button id="sizeratorButton">Let's get started!</button>
+			</section>
+			<section class="sizerator__options">
+				<ul id="sizeratorOptions">
+					<li id="dogOption" data-height=66 data-width=91>
+						<img src="" alt="dog icon">
+						<h2>dog</h2>
+					</li>
+					<li id="humanOption" data-height=177 data-width=66>
+						<img src="" alt="human icon">
+						<h2>human</h2>
+					</li>
+					<li id="trexOption" data-height=400 data-width=1233>
+						<img src="" alt="t-rex icon">
+						<h2>t-rex</h2>
+					</li>
+					<li id="elephantOption" data-height=300 data-width=600>
+						<img src="" alt="elephant icon">
+						<h2>elephant</h2>
+					</li>
+					<li id="whaleOption" data-height=534 data-width=2800>
+						<img src="" alt="whale icon">
+						<h2>whale</h2>
+					</li>
+				</ul>
+				<button id="selectAnimal">set animal</button>
+				<button id="next">next animal</button>
+				<button id="previous">previous animal</button>
+			</section>
+			<section class="sizerator__display">
+				<img id="sizeratorLeft" data-option="" src=""/>
+				<img id="sizeratorRight" data-option="" src=""/>
+			</section>
+		</main>
+
+		<footer>
+			<ul>
+				<li class="copy-right">
+					&copy; 2014 Smithsonian Institution
+				</li>
+				<a href="">
+					<li>privacy</li>
+				</a>
+				<a href="">
+					<li>contact</li>
+				</a>
+				<a href="">
+					<li>volunteer</li>
+				</a>
+				<a href="">
+					<li>careers</li>
+				</a>
+				<a href="">
+					<li>press</li>
+				</a>
+				<a href="">
+					<li>shop</li>
+				</a>
+				<a href="">
+					<li>donate</li>
+				</a>
+			</ul>
+		</footer>
+
+		<script
+		  src="https://code.jquery.com/jquery-3.2.1.min.js"
+		  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+		  crossorigin="anonymous"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>

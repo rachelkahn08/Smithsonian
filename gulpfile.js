@@ -63,13 +63,13 @@ gulp.task('scripts', function() {
   .pipe(jshint())
   .pipe(jshint.reporter('default'))
   .pipe(sourcemaps.init())
-  .pipe(concat('all.js'))
+  .pipe(concat('main.js'))
   .pipe(sourcemaps.write())
   .pipe(gulp.dest('assets/js'));
 });
 
 gulp.task('scripts-min', ['scripts'], function() {
-  return gulp.src('assets/js/all.js')
+  return gulp.src('assets/js/main.js')
   .pipe(plumber())
   .pipe(sourcemaps.init())
   .pipe(rename({suffix: '.min'}))
