@@ -30,7 +30,8 @@ header{
 	color: $navy; 
 
 	.smithsonian-logo__container{
-		padding: 3%;
+		padding: 5%;
+		padding-top: 6%;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
@@ -44,9 +45,13 @@ header{
 			background-size: contain;
 
 			.hamburger-image {
-				width: 100%;
+				width: 86%;
 				padding-top: 10px;
     			margin-left: 5px;
+
+    			h5{
+    				font-size: 1rem;
+    			}
 			}
 
 			.hamburger-bars {
@@ -79,11 +84,28 @@ header{
 	    	}
 		}
 	}
+
+	nav{
+		ul{
+			width: 80%;
+			margin: 0 auto;
+			padding-bottom: 3%;
+			li{
+				font-size: 1.4rem;
+				padding-bottom: 3%;
+				padding-top: 5%;
+				text-transform: uppercase;
+				border-bottom: 1px solid;
+			}
+
+			.language{
+				display: none;
+			}
+		}
+	}
 }
 
-.navbar{
-	display: none;
-}
+
 
 .hero-cta{
 	width: 100%;
@@ -245,7 +267,7 @@ header{
 	color: white;
 	position: relative;
     top: -40px;
-    padding-bottom: 80%;
+    padding-bottom: 10%;
 	
 	.one-of-4-columns{
 		padding-top: 5%;
@@ -253,9 +275,12 @@ header{
 		h3{
 			font-size: 1.5rem;
     		padding-bottom: 4%;
+    		padding-top: 0;
 		}
 
 		address{
+			width: 80%;
+			margin: 0 auto;
 			font-size: 1.1rem;
 		    line-height: 1.5;
 		    padding-bottom: 5%;
@@ -272,12 +297,18 @@ header{
 		}
 
 		.parking-phone-text{
+			
+
 			.parking-text , .phone-text{
+				font-size: 1.01rem;
 				padding-bottom: 5%;
-				font-size: 1.1rem;
-				width: 60%;
+				width: 90%;
 				margin: 0 auto;
 				line-height: 1.5;
+			}
+
+			.phone-text{
+				padding-bottom: 0;
 			}
 
 		}
@@ -285,16 +316,44 @@ header{
 
 	}
 
+	.one-of-3-columns{
+		h3{
+			font-size: 1.5rem;
+		}
+
+		h4{
+			font-size: 1.3rem;
+			text-decoration: underline;
+			padding-bottom: 5%;
+		}
+
+		p{
+			width: 69%;
+		    margin: 0 auto;
+		    line-height: 1.5;
+		}
+	}
+
 }
 
 footer{
 	width: 80%;
 	margin: 0 auto;
+	padding-bottom: 10%;
 	text-align: center;
-	font-family: 'Merriweather', serif;
+	font-family: serif;
+
+	h4{
+		width: 102%;
+	    position: relative;
+	    top: -22px;
+
+	}
 
 
 	ul{
+		width: 80%;
+		margin: 0 auto;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
@@ -304,7 +363,7 @@ footer{
 		a{
 			text-decoration: none;
 			color: black;
-			font-size: 1.3rem;
+
 		}
 		.copy-right{
 			width: 100%;
@@ -320,11 +379,11 @@ footer{
 			font-size: 50px;
 
 			img{
-				height: 80%;
+				height: 8%;
 			}
 
 			.smithsonian-logo__copy{
-				font-size: 50px;
+				font-size: 2.4rem;
 
 				sup{
 					font-size: 18px;
@@ -332,8 +391,12 @@ footer{
 			}
 
 			.hamburger{
-				width: 10%;
-				padding-bottom: 6%;
+				width: 17%;
+				padding-bottom: 1%;
+
+				h5 {
+					font-size: 2.2rem;
+				}
 			}
 		}
 	}
@@ -345,6 +408,26 @@ footer{
 
 		.hero-cta-content-wrap{
 			top: 130px;
+		}
+	}
+
+	footer{
+		padding-bottom: 3%;
+	}
+}
+
+@media screen and (min-width: 1024px){
+	header{
+		.smithsonian-logo__container{
+			-webkit-box-pack: unset;
+			justify-content: unset;
+			img{
+				height: 10%;
+			}
+
+			.hamburger{
+				display: none;
+			}
 		}
 	}
 }
