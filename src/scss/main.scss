@@ -30,10 +30,10 @@ header{
 	color: $navy; 
 
 	.smithsonian-logo__container{
-		padding: 5%;
+		padding: 3%;
 		display: flex;
 		justify-content: space-between;
-		align-items: flex-start;
+		align-items: center;
 
 		img{
 			height: 50px;
@@ -45,23 +45,29 @@ header{
 
 			.hamburger-image {
 				width: 100%;
+				padding-top: 10px;
+    			margin-left: 5px;
 			}
 
 			.hamburger-bars {
-				height: 7px;
+				height: 3px;
 				margin-bottom: 7px;
 				width: 100%;
 				background-color: $navy; 
+			}
+
+			h5{
+				margin-left: 5px;
 			}
 		}
 
 		.smithsonian-logo__copy{
 			display: flex;
 			flex-direction: column;
-		    font-size: 1.68rem;
+		    font-size: 1.48rem;
 
 		    sup{
-			    font-size: 0.8rem;
+			    font-size: 0.7rem;
 				font-family: "Merriweather";
 				color: rgb(39, 80, 110);
 				font-weight: bold;
