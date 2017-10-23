@@ -85,6 +85,10 @@ header{
 		}
 	}
 
+	.desktop-nav{
+		display: none;
+	}
+
 	nav{
 		ul{
 			width: 80%;
@@ -418,7 +422,11 @@ footer{
 
 @media screen and (min-width: 1024px){
 	header{
+		.mobile-nav{
+			display: none;
+		}
 		.smithsonian-logo__container{
+			padding: 0;
 			-webkit-box-pack: unset;
 			justify-content: unset;
 			img{
@@ -427,6 +435,63 @@ footer{
 
 			.hamburger{
 				display: none;
+			}
+			
+			nav{
+				width: 70%;
+				.desktop-nav{
+					display: flex;
+
+					li{
+						text-decoration: none;
+						margin-right: 10%;
+						border: none;
+					}
+				}
+			}	
+		}
+	}
+
+	.hero-cta{
+		background-image: url(../../assets/img/desktop-hero-bg.png);
+		padding-bottom: 25%;
+		.donation-button{
+			left: 85%;
+			padding: 0% 4% 2% 2%;
+			top: 35%;
+		}
+
+		.hero-cta-content-wrap{
+			width: 50%;
+		}
+	}
+	.promos-wrap{
+		width: 96%;
+		margin: 0 auto;
+		
+		.five-of-12-columns{
+			background-image: url(../../assets/img/desktop-astronauts.png);
+			width: 40%;
+			padding-bottom: 36%;
+			top: 0;
+		}
+
+		.seven-of-12-columns{
+			width: 60%;
+			.fossile{
+				width: 61.5%;
+				top: 0;
+				padding-bottom: 59%;
+			}
+
+			.education{
+				width: 62%;
+    			padding-bottom: 60%;
+    			top: 0;
+			}
+
+			.dino{
+
 			}
 		}
 	}
