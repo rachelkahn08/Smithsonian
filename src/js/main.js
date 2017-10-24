@@ -97,14 +97,12 @@ window.onload = function() {
 		var leftImgSize = leftImgWidth * leftImgHeight;
 		var rightImgSize = rightImgWidth * rightImgHeight;	
 
-		if ( leftImgSize > rightImgSize ) {
+		if ( leftImgSize >= rightImgSize ) {
 			images["larger"] = sizeratorLeft;
 			images["smaller"] = sizeratorRight;
 		} else if ( leftImgSize < rightImgSize ) {
 			images["larger"] = sizeratorRight;
 			images["smaller"] = sizeratorLeft;
-		} else {
-			return false;
 		}
 
 		return images;
