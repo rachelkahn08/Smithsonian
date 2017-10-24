@@ -180,20 +180,22 @@ header{
 }
 
 .promos-wrap{
-	display: block;
+	display: flex;
+	flex-direction: column;
 	position: relative;
 	padding-bottom: 10%;
 
 	.five-of-12-columns{
 		background-image: url(../../assets/img/astronauts.png);
+		position: relative;
 		background-repeat: no-repeat;
 		background-size: cover;
-		padding-bottom: 82%;
+		padding-bottom: 60%;
 
 			.promo__item{
 			width: 100%;
 			background-color: RGBA(43, 53, 68, .8);
-			position: relative;
+			position: absolute;
 			bottom: 0;
 			color: white;
 			font-size: 1.3rem;
@@ -214,14 +216,14 @@ header{
 
 	.seven-of-12-columns{
 		display: flex;
-		flex-direction: column;
+		flex-wrap: wrap;
 
 		.fossil{
 			background-image: url(../../assets/img/fossil.png);
 			background-size: cover;
 			background-repeat: no-repeat;
 			width: 100%;
-    		padding-bottom: 50%;
+    		padding-bottom: 60%;
 
 			// padding-bottom: 52%;			
 		}
