@@ -217,8 +217,10 @@ header{
 			background-image: url(../../assets/img/astronauts.png);
 		}
 
-		&.fossil {
+		&.sizerator {
 			background-image: url(../../assets/img/sizerator-header.png);
+			background-size: auto 90%;
+			background-position: 30% 10%;
 		}
 
 		&.education {
@@ -482,8 +484,7 @@ footer{
 			height: 67.2%;
 		}
 
-		&.fossil {
-			background-image: url(../../assets/img/fossil.png);
+		&.sizerator {
 			width: 47%;
 			height: 30%;
 			margin-right: 30px;
