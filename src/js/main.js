@@ -35,6 +35,7 @@ window.onload = function() {
 
 	function updateSizeratorLeft(option, imgSrc, height, width) {
 		sizeratorLeft.src = imgSrc;
+		determineLargerImg(option);
 		console.log(height);
 		console.log(width);
 	}
