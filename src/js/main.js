@@ -28,15 +28,15 @@ window.onload = function() {
 				}
 			}
 			
-			currentOption.add('active');
-			updateSizeratorLeft(currentOption.id, currentOption.children[0].src, currentOption.dataset.height, currentOption.dataset.width);
+			currentOption.classList.add('active');
+			updateSizeratorLeft(currentOption, currentOption.children[0].src);
 		}	
 	}
 
 	function updateSizeratorLeft(option, imgSrc, height, width) {
-		sizeratorLeft.dataset.option = option;
 		sizeratorLeft.src = imgSrc;
 		console.log(height);
 		console.log(width);
 	}
 }
+
