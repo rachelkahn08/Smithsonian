@@ -1,4 +1,5 @@
 $navy: #27506e;
+$translucentBlack: RGBA(0, 0, 0, 0.6);
 
 
 * {
@@ -179,6 +180,7 @@ header{
 	}
 }
 
+<<<<<<< HEAD
 .promos-wrap{
 	display: flex;
 	flex-direction: column;
@@ -206,16 +208,31 @@ header{
 				font-size: 1.5rem;
 				padding-bottom: 2%;
 			}
+=======
+.promos {
+	margin-top: -2.5vw;
+	display: flex;
+	flex-direction: column;
+>>>>>>> 2da62595b12744ba21a1a7b8d45cc4f69b1e5aa1
 
-			p{
-				font-size: .9rem;
-			}
-
-		}
+	.five-of-12-columns, .seven-of-12-columns {
+		width: 100%;
 	}
 
-	.seven-of-12-columns{
+	.seven-of-12-columns {
 		display: flex;
+		flex-direction: column;
+	}
+
+	.promo__item {
+		width: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: white;
+		height: 70vw;
+		display: flex;
+<<<<<<< HEAD
 		flex-wrap: wrap;
 
 		.fossil{
@@ -224,57 +241,138 @@ header{
 			background-repeat: no-repeat;
 			width: 100%;
     		padding-bottom: 60%;
+=======
+		flex-direction: column;
+		justify-content: flex-end;
 
-			// padding-bottom: 52%;			
+		&.first-in-flight {
+			background-image: url(../../assets/img/astronauts.png);
+		}
+>>>>>>> 2da62595b12744ba21a1a7b8d45cc4f69b1e5aa1
+
+		&.fossil {
+			background-image: url(../../assets/img/fossil.png);
 		}
 
-		.promo__item{
-			width: 100%;
-			background-color: RGBA(43, 53, 68, .8);
-			position: absolute;
-			bottom: 0;
-			color: white;
-			font-size: 1.3rem;
-			text-decoration: none;
-			padding: 0% 0 5% 5%;
-
-			h4{
-				font-size: 1.5rem;
-				padding-bottom: 2%;
-			}
-
-			p{
-				font-size: .9rem;
-			}
-		}
-
-		.education{
+		&.education {
 			background-image: url(../../assets/img/education.png);
-			background-size: cover;
-			background-repeat: no-repeat;
-		    width: 100%;
-    		padding-bottom: 50%;
-			
-		
 		}
 
-		.dino{
+		&.dino {
 			background-image: url(../../assets/img/dino.png);
-			background-size: cover;
-			background-repeat: no-repeat;
-			padding-bottom: 52%;
-		    width: 100%;
-    		padding-bottom: 50%;	
+		}
+
+		h4, p {
+			background-color: $translucentBlack;
+			padding: 3%;
+		}
+
+		h4 {
+			font-size: 1.5rem;
+			padding-bottom: 0;
+		}
+
+		p {
+			padding-top: 1.5%;
+			font-size: .9rem;	
 		}
 	}
 }
+
+// .promos-wrap{
+// 	display: block;
+// 	position: relative;
+// 	padding-bottom: 10%;
+
+// 	.five-of-12-columns{
+// 		background-image: url(../../assets/img/astronauts.png);
+// 		background-repeat: no-repeat;
+// 		background-size: cover;
+// 		padding-bottom: 82%;
+
+// 			.promo__item{
+// 			width: 100%;
+// 			background-color: RGBA(43, 53, 68, .8);
+// 			position: relative;
+// 			bottom: 0;
+// 			color: white;
+// 			font-size: 1.3rem;
+// 			text-decoration: none;
+// 			// padding: 0% 0 5% 5%;
+
+// 			h4{
+// 				font-size: 1.5rem;
+// 				padding-bottom: 2%;
+// 			}
+
+// 			p{
+// 				font-size: .9rem;
+// 			}
+
+// 		}
+// 	}
+
+// 	.seven-of-12-columns{
+// 		display: flex;
+// 		flex-direction: column;
+
+// 		.fossil{
+// 			background-image: url(../../assets/img/fossil.png);
+// 			background-size: cover;
+// 			background-repeat: no-repeat;
+// 			width: 100%;
+//     		padding-bottom: 50%;
+
+// 			// padding-bottom: 52%;			
+// 		}
+
+// 		.promo__item{
+// 			width: 100%;
+// 			background-color: RGBA(43, 53, 68, .8);
+// 			position: absolute;
+// 			bottom: 0;
+// 			color: white;
+// 			font-size: 1.3rem;
+// 			text-decoration: none;
+// 			padding: 0% 0 5% 5%;
+
+// 			h4{
+// 				font-size: 1.5rem;
+// 				padding-bottom: 2%;
+// 			}
+
+// 			p{
+// 				font-size: .9rem;
+// 			}
+// 		}
+
+// 		.education{
+// 			background-image: url(../../assets/img/education.png);
+// 			background-size: cover;
+// 			background-repeat: no-repeat;
+// 		    width: 100%;
+//     		padding-bottom: 50%;
+			
+		
+// 		}
+
+// 		.dino{
+// 			background-image: url(../../assets/img/dino.png);
+// 			background-size: cover;
+// 			background-repeat: no-repeat;
+// 			padding-bottom: 52%;
+// 		    width: 100%;
+//     		padding-bottom: 50%;	
+// 		}
+// 	}
+// }
 
 .location-map{
 	background-color: RGBA(76, 104, 130, 1.00);
 	text-align: center;
 	color: white;
 	position: relative;
-    top: -40px;
+    //top: -40px;
     padding-bottom: 10%;
 	
 	.one-of-4-columns{
