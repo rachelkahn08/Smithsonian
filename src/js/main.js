@@ -1,4 +1,5 @@
-var sizerator = document.getElementById('sizerator'),
+var hamburgerButton = document.querySelector('.hamburger'),
+	sizerator = document.getElementById('sizerator'),
 	sizeratorButton = document.getElementById('sizeratorButton'),
 	sizeratorModal = document.getElementById('sizeratorModal'),
 	sizeratorOptions = document.getElementById('sizeratorOptions'),
@@ -8,7 +9,6 @@ var sizerator = document.getElementById('sizerator'),
 	nextAnimalButton = document.getElementById('nextAnimalButton');
 
 window.onload = function() {
-	sizeratorModal.parentElement.removeChild(sizeratorModal);
 
 	if (sizerator) {
 		sizeratorButton.addEventListener('click', function(e) {
