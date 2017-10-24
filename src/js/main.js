@@ -9,6 +9,7 @@ window.onload = function() {
 	if (sizerator) {
 		sizeratorButton.addEventListener('click', function(e) {
 			e.preventDefault();
+			console.log(sizeratorModal.parentElement);
 			sizeratorModal.parentElement.removeChild(sizeratorModal);
 		});
 

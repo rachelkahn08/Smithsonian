@@ -25,8 +25,16 @@
 					</div>
 					<h5>menu</h5>
 				</div>
+				<nav class="desktop">
+					<ul class="navbar desktop-nav">
+						<li>exhibits</li>
+						<li>calendar</li>
+						<li>groups</li>
+						<li>research</li>
+						<li>about</li>
+					</ul>
 			</div>
-			<nav>
+			<nav class="mobile-nav">
 				<ul class="navbar">
 					<li>exhibits</li>
 					<li>calendar</li>
@@ -37,20 +45,19 @@
 						<img src="" class="search-icon" alt="search icon" />
 						search
 					</li>
-					<li>
+					<li class="language">
 						language &#x25BC;
 					</li>
 				</ul>
 			</nav>
 		</header>
-		
 		<main>
 			<div class="sizerator-header">
 				<h1>the sizerator</h1>
 			</div>
 			
 			<section id="sizeratorModal">
-				In honor of one of the <strong>biggest t-rex skeletons ever assembled</strong>, we have created <span>the sizerator</span>. Select an animal and scroll to see how it would stack up against other creatures!
+				<p>In honor of one of the <strong>biggest t-rex skeletons ever assembled</strong>, we have created <span>the sizerator</span>. Select an animal and scroll to see how it would stack up against other creatures!</p>
 				<button id="sizeratorButton">Let's get started!</button>
 			</section>
 			<section class="sizerator__options">
@@ -87,10 +94,13 @@
 		</main>
 
 		<footer>
-			<ul>
-				<li class="copy-right">
+			<div class="copy-right">
+				<h4 class="copy-right">
 					&copy; 2014 Smithsonian Institution
-				</li>
+				</h4>
+			</div>
+			
+			<ul>
 				<a href="">
 					<li>privacy</li>
 				</a>

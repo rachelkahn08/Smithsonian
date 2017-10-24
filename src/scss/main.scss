@@ -100,6 +100,7 @@ header{
 				padding-top: 5%;
 				text-transform: uppercase;
 				border-bottom: 1px solid;
+				font-family: verdana, serif;
 			}
 
 			.language{
@@ -133,6 +134,7 @@ header{
 	.hero-cta-content-wrap{
 		position: relative;
 		top: 60px;
+		margin-bottom: 17px;
 
 		h2, p, a {
 			padding-left: 5%;
@@ -180,10 +182,9 @@ header{
 .promos-wrap{
 	display: block;
 	position: relative;
+	padding-bottom: 10%;
 
 	.five-of-12-columns{
-		position: relative;
-		top: -40px;
 		background-image: url(../../assets/img/astronauts.png);
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -192,12 +193,12 @@ header{
 			.promo__item{
 			width: 100%;
 			background-color: RGBA(43, 53, 68, .8);
-			position: absolute;
+			position: relative;
 			bottom: 0;
 			color: white;
 			font-size: 1.3rem;
 			text-decoration: none;
-			padding: 0% 0 5% 5%;
+			// padding: 0% 0 5% 5%;
 
 			h4{
 				font-size: 1.5rem;
@@ -216,11 +217,11 @@ header{
 		flex-direction: column;
 
 		.fossil{
-			position: relative;
-			top: -40px;
 			background-image: url(../../assets/img/fossil.png);
 			background-size: cover;
 			background-repeat: no-repeat;
+			width: 100%;
+    		padding-bottom: 50%;
 
 			// padding-bottom: 52%;			
 		}
@@ -246,22 +247,22 @@ header{
 		}
 
 		.education{
-			position: relative;
-			top: -40px;
 			background-image: url(../../assets/img/education.png);
 			background-size: cover;
 			background-repeat: no-repeat;
+		    width: 100%;
+    		padding-bottom: 50%;
 			
 		
 		}
 
 		.dino{
-			position: relative;
-			top: -40px;
 			background-image: url(../../assets/img/dino.png);
 			background-size: cover;
 			background-repeat: no-repeat;
-			padding-bottom: 52%;	
+			padding-bottom: 52%;
+		    width: 100%;
+    		padding-bottom: 50%;	
 		}
 	}
 }
@@ -442,11 +443,13 @@ footer{
 				width: 70%;
 				.desktop-nav{
 					display: flex;
+					padding-bottom: 0;
 
 					li{
 						text-decoration: none;
 						margin-right: 10%;
 						border: none;
+						font-family: verdana, serif;
 					}
 				}
 			}	
@@ -648,6 +651,11 @@ footer{
 			    flex-direction: column;
 			    align-items: center;
 			    padding: 1%;
+
+			    h2{
+			    	color: RGBA(46, 79, 108, 1.00);
+			    	font-family: verdana, serif;
+			    }
 				
 	
 				img{
@@ -657,6 +665,38 @@ footer{
 				}
 			}
 		}
+	}
+
+	#sizeratorModal{
+		display: flex;
+	    justify-content: center;
+	    width: 30%;
+	    flex-direction: column;
+	    margin: 0 auto;
+	    background-color: RGBA(46, 79, 108, 1.00);
+	    height: 260px;
+	    position: fixed;
+	    left: 50%;
+	    top: 50%;
+	    transform: translate(-50%,-50%);
+
+
+	    p{
+	    	padding: 8%;
+	    	line-height: 2;
+	    	color: white;
+	    	font-family: verdana, serif;
+
+	    	strong{
+	    		font-weight: 700;
+	    	}
+	    }
+
+	    #sizeratorButton{
+	    	width: 50%;
+	    	margin: 0 auto;
+	    	margin-bottom: 30px;
+	    }
 	}
 	
 }
