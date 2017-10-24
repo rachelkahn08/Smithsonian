@@ -46,14 +46,15 @@ header{
 			background-size: contain;
 
 			.hamburger-image {
-				width: 86%;
+				width: 60px;
 				padding-top: 10px;
     			margin-left: 5px;
 
-    			h5{
-    				font-size: 1rem;
-    			}
+    			
 			}
+			h5{
+    				font-size: 21px;
+    			}
 
 			.hamburger-bars {
 				height: 3px;
@@ -130,6 +131,9 @@ header{
 		background-color: RGBA(243, 183, 68, 1.00);
 		width: 20%;
 		padding: 4% 6% 4% 6%;
+		font-family: verdana,serif;
+		text-transform: uppercase;
+		font-weight: 800;
 	}
 	
 	.hero-cta-content-wrap{
@@ -180,7 +184,11 @@ header{
 	}
 }
 
-.promos {
+
+
+
+
+	.promos {
 	margin-top: -2.5vw;
 	display: flex;
 	flex-direction: column;
@@ -238,93 +246,7 @@ header{
 	}
 }
 
-// .promos-wrap{
-// 	display: block;
-// 	position: relative;
-// 	padding-bottom: 10%;
 
-// 	.five-of-12-columns{
-// 		background-image: url(../../assets/img/astronauts.png);
-// 		background-repeat: no-repeat;
-// 		background-size: cover;
-// 		padding-bottom: 82%;
-
-// 			.promo__item{
-// 			width: 100%;
-// 			background-color: RGBA(43, 53, 68, .8);
-// 			position: relative;
-// 			bottom: 0;
-// 			color: white;
-// 			font-size: 1.3rem;
-// 			text-decoration: none;
-// 			// padding: 0% 0 5% 5%;
-
-// 			h4{
-// 				font-size: 1.5rem;
-// 				padding-bottom: 2%;
-// 			}
-
-// 			p{
-// 				font-size: .9rem;
-// 			}
-
-// 		}
-// 	}
-
-// 	.seven-of-12-columns{
-// 		display: flex;
-// 		flex-direction: column;
-
-// 		.fossil{
-// 			background-image: url(../../assets/img/fossil.png);
-// 			background-size: cover;
-// 			background-repeat: no-repeat;
-// 			width: 100%;
-//     		padding-bottom: 50%;
-
-// 			// padding-bottom: 52%;			
-// 		}
-
-// 		.promo__item{
-// 			width: 100%;
-// 			background-color: RGBA(43, 53, 68, .8);
-// 			position: absolute;
-// 			bottom: 0;
-// 			color: white;
-// 			font-size: 1.3rem;
-// 			text-decoration: none;
-// 			padding: 0% 0 5% 5%;
-
-// 			h4{
-// 				font-size: 1.5rem;
-// 				padding-bottom: 2%;
-// 			}
-
-// 			p{
-// 				font-size: .9rem;
-// 			}
-// 		}
-
-// 		.education{
-// 			background-image: url(../../assets/img/education.png);
-// 			background-size: cover;
-// 			background-repeat: no-repeat;
-// 		    width: 100%;
-//     		padding-bottom: 50%;
-			
-		
-// 		}
-
-// 		.dino{
-// 			background-image: url(../../assets/img/dino.png);
-// 			background-size: cover;
-// 			background-repeat: no-repeat;
-// 			padding-bottom: 52%;
-// 		    width: 100%;
-//     		padding-bottom: 50%;	
-// 		}
-// 	}
-// }
 
 .location-map{
 	background-color: RGBA(76, 104, 130, 1.00);
@@ -375,10 +297,7 @@ header{
 			.phone-text{
 				padding-bottom: 0;
 			}
-
 		}
-
-
 	}
 
 	.one-of-3-columns{
@@ -402,38 +321,18 @@ header{
 }
 
 footer{
-	width: 80%;
-	margin: 0 auto;
-	padding-bottom: 10%;
-	text-align: center;
-	font-family: serif;
-
-	h4{
-		width: 102%;
-	    position: relative;
-	    top: -22px;
-
-	}
-
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: verdana, serif;
 
 	ul{
-		width: 80%;
-		margin: 0 auto;
 		display: flex;
-		flex-wrap: wrap;
-		justify-content: space-between;
-		line-height: 1.4;
-
 
 		a{
-			text-decoration: none;
-			color: black;
-
+			width: 10vw;
 		}
-		.copy-right{
-			width: 100%;
 
-		}
 	}
 }
 
@@ -459,9 +358,6 @@ footer{
 				width: 17%;
 				padding-bottom: 1%;
 
-				h5 {
-					font-size: 2.2rem;
-				}
 			}
 		}
 	}
@@ -469,6 +365,7 @@ footer{
 	.hero-cta{
 		.donation-button{
 			top: 26px;
+			
 		}
 
 		.hero-cta-content-wrap{
@@ -491,7 +388,12 @@ footer{
 			-webkit-box-pack: unset;
 			justify-content: unset;
 			img{
-				height: 10%;
+				height: 4vw;
+				margin-right: 3px;
+			}
+
+			.smithsonian-logo__copy{
+				width: 43vw;
 			}
 
 			.hamburger{
@@ -504,9 +406,13 @@ footer{
 					display: flex;
 					padding-bottom: 0;
 
+					ul{
+						margin: 0;
+					}
+
 					li{
 						text-decoration: none;
-						margin-right: 10%;
+						margin-right: 1vw;
 						border: none;
 						font-family: verdana, serif;
 					}
@@ -520,79 +426,114 @@ footer{
 		padding-bottom: 25%;
 		.donation-button{
 			left: 85%;
-			padding: 0% 4% 2% 2%;
+			padding: 1% 2% 1% 2%;
 			top: 35%;
+			left: 87%;
 		}
 
 		.hero-cta-content-wrap{
-			width: 50%;
+			width: 65%;
 			h2{
-				font-size: 3.5rem;
+				font-size: 5rem;
+				padding-bottom: 2%;
+			}
+
+			p{
+				padding-bottom: 2%;
 			}
 		}
 	}
-	.promos-wrap{
-		width: 96%;
+	
+	.promos {
+		width: 98%;
 		margin: 0 auto;
 		display: flex;
-		margin-bottom: 40px;
-		
-		.five-of-12-columns{
-			background-image: url(../../assets/img/desktop-astronauts.png);
-			background-size: cover;
-			width: 40%;
-			padding-bottom: 36%;
-			top: 0;
-			margin-right: 40px;
+		flex-direction: row;
+		padding-bottom: 30px;
 
+	.five-of-12-columns {
+		width: 40%;
+
+	}
+
+	.seven-of-12-columns {
+		width: 60%;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+
+	}
+
+	.promo__item {
+		width: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: white;
+		height: 70vw;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+
+		&.first-in-flight {
+			background-image: url(../../assets/img/desktop-astronauts.png);
+			width: 40%;
+			margin-right: 30px;
+			height: 67.2%;
 		}
 
-		.seven-of-12-columns{
-			width: 60%;
-			flex-direction: row;
-			flex-wrap: wrap;
+		&.fossil {
+			background-image: url(../../assets/img/fossil.png);
+			width: 47%;
+			height: 30%;
+			margin-right: 30px;
+		}
 
-			.fossil{
-				width: 47%;
-				top: 0;
-				margin-right: 40px;
-				height: 50%;
-				background-size: cover;
-			}
+		&.education {
+			background-image: url(../../assets/img/education.png);
+			width: 47%;
+			height: 30%;
+		}
 
-			.education{
-				top: 0;
-				width: 47%;
-    			height: 50%;
-				background-size: cover;
-			}
+		&.dino {
+			background-image: url(../../assets/img/dino.png);
+			height: 34%;
+			margin-top: 30px;
+		}
 
-			.dino{
-				width: 100%;
-				height: 35.1%;
-				top: 0;
-				padding-bottom: 0;
-				margin-top: 40px;
+		h4, p {
+			background-color: $translucentBlack;
+			padding: 3%;
+		}
 
-			}
+		h4 {
+			font-size: 1.5rem;
+			padding-bottom: 0;
+		}
+
+		p {
+			padding-top: 1.5%;
+			font-size: .9rem;	
 		}
 	}
+}
+
+		
+	
 
 	.location-map{
 		top: 0;
 		display: flex;
 		justify-content: space-between;
-		background-image: url(https://maps.googleapis.com/maps/api/staticmap?center=600+Maryland+Ave+SW,+Washington,+DC+20002&zoom=15&scale=1&size=600x300&maptype=roadmap&format=png&visual_refresh=true);
-		background-repeat: no-repeat;
+		background-image: url(../../assets/img/map.png);
 		background-size: cover;
 		text-align: left;
 
 		.one-of-4-columns{
-		// background-color: RGBA(77, 104, 126, .8);
+		background-color: RGBA(0, 0, 0, 0.6);
 		width: 25%;
 		position: relative;
 		top: 40px;
-		background-color: black;
 		padding-top: 1%;
 		padding-bottom: 1%;
 		padding-left: 1%;
@@ -639,8 +580,7 @@ footer{
 	}
 
 		.one-of-3-columns{
-			// background-color: RGBA(77, 104, 126, .8);
-			background-color: black;
+			background-color: RGBA(0, 0, 0, 0.6);
 			width: 22%;
 			height: 33%;
 			position: relative;
@@ -663,19 +603,21 @@ footer{
 	}
 
 	footer{
-		display: flex;
-		margin: unset;
-		padding-bottom: 0;
+
+		width: 100%;
+		margin: 0 auto;
+		padding-bottom: 1%;
+		background-color: RGBA(232, 237, 240, 1.00);
 
 		h4{
 			width: unset;
 		}
 
 		.copy-right{
-			width: 25%;
-			position: unset;
-			padding-top: 0;
+			padding-bottom: .5%;
 		}
+
+
 	}
 
 	.sizerator-header{
