@@ -758,4 +758,17 @@ footer{
 	    }
 	}
 	
+	#sizerator main {
+		height: 100%;
+
+		.sizerator__display {
+			display: flex;
+			justify-content: center;
+			align-items: flex-end;
+
+			img {
+				max-height: 100%;
+			}
+		}
+	}
 }
