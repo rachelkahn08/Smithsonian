@@ -38,6 +38,7 @@ header{
 		align-items: center;
 
 		img{
+			width: 50px;
 			height: 50px;
 		}
 
@@ -46,14 +47,14 @@ header{
 			background-size: contain;
 
 			.hamburger-image {
-				width: 60px;
+				width: 40px;
 				padding-top: 10px;
     			margin-left: 5px;
 
     			
 			}
 			h5{
-    				font-size: 21px;
+    				font-size: 13.5px;
     			}
 
 			.hamburger-bars {
@@ -135,11 +136,26 @@ header{
 		text-transform: uppercase;
 		font-weight: 800;
 	}
+
+	
 	
 	.hero-cta-content-wrap{
 		position: relative;
 		top: 60px;
 		margin-bottom: 17px;
+
+		.step{
+			width: 63%;
+		}	
+
+		.hours-button-wrap{
+			width: 60%;
+			background-color: RGBA(47, 73, 95, 0.8);
+			position: relative;
+			left: 5%;
+			padding-bottom: 2%;
+			padding-left: 5%;
+		}
 
 		h2, p, a {
 			padding-left: 5%;
@@ -164,15 +180,15 @@ header{
 			left: 5%;
 			text-decoration: none;
 			padding-left: 5%;
+			line-height: 1.4;
 
 		}
 
 		p{
-			padding-bottom: 4%;
 			font-family: Verdana, sans-serif;
 			text-transform: uppercase;
 			font-weight: 200;
-			font-size: 1.5rem;
+			font-size: 1.3rem;
 		}
 		
 		a{
@@ -180,6 +196,7 @@ header{
 			background-color: white;
 			padding: 1%;
 			padding-left: 5%;
+			font-size: 1rem;
 		}
 	}
 }
